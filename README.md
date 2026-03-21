@@ -57,26 +57,32 @@ data-cleaning-automation/
 ├── src/               # Python scripts
 └── requirements.txt   # Dependencies
 ```
-## Project 2: Sales Data Analysis (EDA)
+---
+
+## 📈 Project 2: Sales Data Analysis (EDA)
 
 ### Overview
-Performed exploratory data analysis on cleaned sales data to identify trends, top-performing products, and regional performance.
+Performed exploratory data analysis on cleaned sales data 
+to uncover revenue trends, top-performing products, and 
+regional performance drivers — turning raw numbers into 
+actionable business insights.
 
-### Key Analysis Performed
-- Overall sales, profit, and quantity analysis
-- Sales and profit by category
-- Top 10 products by revenue
-- Regional sales distribution
-- Year-wise sales trend analysis
-- Data visualization using Matplotlib
+---
 
-### Key Insights
-- A small set of products contributes significantly to total revenue.
-- Certain categories and regions drive higher sales but vary in profitability.
-- Sales show a clear trend over multiple years, supporting growth analysis.
+### 🔍 Analysis Performed
+- 📦 Overall sales, profit, and quantity summary
+- 🏷️ Sales and profit breakdown by product category
+- 🏆 Top 10 products by revenue contribution
+- 🗺️ Regional sales distribution and comparison
+- 📅 Year-wise sales trend analysis
+- 📊 Data visualisation using Matplotlib
 
-### Tools Used
-- Python
-- Pandas
-- Matplotlib
+---
+
+### 💡 Key Business Insights
+- A small subset of products drives the majority of 
+  total revenue — classic Pareto pattern
+- Category and regional performance varies significantly 
+  in profitability, highlighting optimisation opportunities
+- Cle
 - Google Colab
