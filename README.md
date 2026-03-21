@@ -1,35 +1,62 @@
-# data-cleaning-automation
-Python project for cleaning and preparing sales data using Pandas
-Project 1: Data Cleaning Automation using Python
-Overview
+# 🧹 Data Cleaning Automation & Sales EDA
 
-This project focuses on automating the data cleaning process for raw sales data using Python and Pandas. The objective was to transform messy, unstructured data into a clean and analysis-ready dataset that can be used for reporting, visualization, and further analytics.
+A Python project that automates the cleaning and preparation 
+of raw sales data using Pandas, transforming messy datasets 
+into analysis-ready insights.
 
-Key Steps Performed
+---
 
-Loaded raw sales data from a CSV file using Pandas
+## 📌 Problem Statement
+Raw sales data is often messy — duplicate records, missing 
+values, inconsistent formatting. Manual cleaning is slow and 
+error-prone. This project automates the entire process.
 
-Performed initial data quality checks to understand structure and missing values
+---
 
-Removed duplicate records to avoid data inflation
+## ⚙️ Key Steps Performed
+- ✅ Loaded raw sales data from CSV using Pandas
+- ✅ Performed data quality checks for structure and nulls
+- ✅ Removed duplicate records to avoid data inflation
+- ✅ Handled missing values to improve data accuracy
+- ✅ Standardised column names for consistency
+- ✅ Exported cleaned dataset for downstream analytics
 
-Handled missing values to improve data accuracy
+---
 
-Standardized column names for consistency and easier analysis
+## 📊 EDA Insights
+- Identified top revenue-generating products by category
+- Analysed regional sales performance and trends
+- Visualised year-wise sales patterns using Matplotlib
 
-Exported the cleaned dataset as a CSV file for downstream use
+---
 
-Tools & Technologies
+## 🛠️ Technologies Used
+| Tool | Purpose |
+|------|---------|
+| Python | Core programming |
+| Pandas | Data cleaning & manipulation |
+| Matplotlib | Data visualisation |
+| Jupyter Notebook | Analysis environment |
 
-Python
+---
 
-Pandas
+## 🚀 How to Run
+```bash
+git clone https://github.com/raashikah/data-cleaning-automation
+pip install -r requirements.txt
+jupyter notebook data_cleaning.ipynb
+```
 
-Google Colab
+---
 
-Outcome
-
-The project produced a clean, structured dataset that is ready for exploratory data analysis, dashboard creation, and machine learning workflows.
+## 📁 Project Structure
+```
+data-cleaning-automation/
+├── data/              # Raw and cleaned datasets
+├── notebooks/         # Jupyter analysis notebooks
+├── src/               # Python scripts
+└── requirements.txt   # Dependencies
+```
 ## Project 2: Sales Data Analysis (EDA)
 
 ### Overview
